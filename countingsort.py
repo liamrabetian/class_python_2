@@ -1,4 +1,4 @@
-def counting_sort(array1, max_val):
+def countingsort(array1, max_val):
     m = max_val + 1
     count = [0] * m                
     
@@ -11,4 +11,4 @@ def counting_sort(array1, max_val):
             i += 1
     return array1
 
-print(counting_sort( [1, 2, 7, 3, 2, 1, 4, 2, 3, 2, 1], 7 ))
+print(countingsort( [1, 2, 7, 3, 2, 1, 4, 2, 3, 2, 1], 7 ))
